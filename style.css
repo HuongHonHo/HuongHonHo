@@ -1,1 +1,55 @@
-.css
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f6f7fb;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(90deg,#ff6a00,#ff8c42);
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    font-size:28px;
+}
+
+header p{
+    margin-top:8px;
+    font-size:15px;
+}
+
+.container{
+    width:95%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    border-radius:16px;
+    padding:20px;
+    margin-top:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.btn{
+    display:inline-block;
+    background:#ff6a00;
+    color:white;
+    padding:12px 22px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#e95d00;
+}
