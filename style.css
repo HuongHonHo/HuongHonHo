@@ -102,3 +102,30 @@ nav a:hover{
 color:yellow;
 
 }
+.banner{
+
+background:linear-gradient(90deg,#ff8c00,#ff6a00);
+
+padding:70px 20px;
+
+text-align:center;
+
+color:white;
+
+}
+
+.banner h1{
+
+font-size:42px;
+
+margin-bottom:20px;
+
+}
+
+.banner p{
+
+font-size:22px;
+
+margin-bottom:25px;
+
+}
